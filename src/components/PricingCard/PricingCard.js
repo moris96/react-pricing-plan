@@ -1,11 +1,22 @@
-import React from 'react'
+import React from 'react';
+import './PricingCard.css';
 
-const PricingCard = () => {
+const PricingCard = ({title, price, storage, users, sendUp}) => {
   return (
-    <div>
-      {/* <h1>Pricing Card</h1> */}
+    <div className='PricingCard'>
+        <header>
+            <p className='card-title'>{title}</p>
+            <h1 className='card-price'>{price}</h1>
+        </header>
+        {/* features */}
+        <div className='card-features'>
+            <div className='card-storage'>{storage}</div>
+            <div className='card-users-allowed'>{users} users in total</div>
+            <div className='card-send-up'>{sendUp}</div>
+        </div>
+        <button className='card-btn'>READ MORE</button>
     </div>
-  )
-}
+  );
+};
 
 export default PricingCard

@@ -1,5 +1,6 @@
 import React from 'react';
-import './PricingPlan.css'
+import './PricingPlan.css';
+import PricingCard from '../PricingCard/PricingCard';
 
 const PricingPlan = () => {
   return (
@@ -17,10 +18,12 @@ const PricingPlan = () => {
                     <p>Monthly</p>
                 </div>
             </header>
-            <div className='pricing-cards' />
+            <div className='pricing-cards' >
+                <PricingCard/>
+            </div>
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default PricingPlan
