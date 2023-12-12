@@ -1,6 +1,4 @@
-
 import PricingPlan from "./components/PricingPlan/PricingPlan";
-
 
 
 function App() {

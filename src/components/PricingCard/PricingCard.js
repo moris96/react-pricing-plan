@@ -1,7 +1,9 @@
 import React from 'react';
 import './PricingCard.css';
 
-const PricingCard = ({title, price, storage, users, sendUp}) => {
+// cloud sharing storage 
+
+const PricingCard = ({title, price, storage, users}) => {
   return (
     <div className='PricingCard'>
         <header>
@@ -12,7 +14,6 @@ const PricingCard = ({title, price, storage, users, sendUp}) => {
         <div className='card-features'>
             <div className='card-storage'>{storage}</div>
             <div className='card-users-allowed'>{users} users in total</div>
-            <div className='card-send-up'>{sendUp}</div>
         </div>
         <button className='card-btn'>READ MORE</button>
     </div>
