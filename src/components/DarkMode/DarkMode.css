@@ -75,8 +75,9 @@
     fill: #fff;
 }
 
+
 /* dark/light mode theme colors that appear when toggled */
-.for-light-theme {
+/* .for-light-theme {
     --primary-color: #302ae6;
     --secondary-color: #536390;
     --font-color: #424242;
@@ -90,4 +91,4 @@
     --font-color: #e1e1ff;
     --bg-color: #161625;
     --heading-color: #818cab;
-}
+} */

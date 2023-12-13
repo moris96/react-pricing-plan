@@ -4,10 +4,6 @@ import { ReactComponent as Moon } from "./Moon.svg";
 
 import React from 'react';
 
-// import { useState } from 'react';
-
-// import useLocalStorage from 'use-local-storage';
-
 
 const DarkMode = () => {
 

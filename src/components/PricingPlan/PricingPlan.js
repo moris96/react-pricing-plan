@@ -7,7 +7,6 @@ import DarkMode from '../DarkMode/DarkMode';
 const PricingPlan = () => {
 
     const [selectMonthly, setSelectMonthly] = useState(true)
-    // console.log(selectMonthly)
 
 
   return (

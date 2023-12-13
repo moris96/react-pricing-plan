@@ -133,7 +133,7 @@ p {
   }
   
   
-/* dark mode */
+/* for dark-theme when toggled */ 
 #dark-mode-toggle {
     background-color: var(--body-background);
   
@@ -145,4 +145,4 @@ p {
 .App-link {
     color: var(--link-color);
 }
-  
+
