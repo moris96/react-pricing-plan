@@ -90,7 +90,11 @@ button {
 
 .PricingApp header .header-topic {
     text-align: center;
-    color: var(--neutral-dark-grayish-blue);
+    color: #757575;
+}
+
+p {
+    color: #757575;
 }
 
 .PricingApp header > .header-row {
@@ -120,3 +124,25 @@ button {
       gap: 2em;
     }
 }
+
+
+[data-theme="dark"] {
+    --body-background: #282c34;
+    --body-color: white;
+    --link-color: cyan;
+  }
+  
+  
+/* dark mode */
+#dark-mode-toggle {
+    background-color: var(--body-background);
+  
+    min-height: "100vh";
+    text-align: center;
+    padding-top: 10rem;
+}
+  
+.App-link {
+    color: var(--link-color);
+}
+  

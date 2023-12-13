@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './PricingPlan.css';
 import PricingCard from '../PricingCard/PricingCard';
 
+import DarkMode from '../DarkMode/DarkMode';
+
 const PricingPlan = () => {
 
     const [selectMonthly, setSelectMonthly] = useState(true)
@@ -9,7 +11,8 @@ const PricingPlan = () => {
 
 
   return (
-    <div className='PricingApp'>
+    <div className='PricingApp' id='dark-mode-toggle'>
+        <DarkMode/>
         <div className='app-container'>
             {/* header */}
             <header>
