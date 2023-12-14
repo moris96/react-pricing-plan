@@ -1,9 +1,13 @@
 import React from 'react';
 import './PricingCard.css';
 
-// cloud sharing storage 
+
 
 const PricingCard = ({title, price, storage, users}) => {
+
+
+
+
   return (
     <div className='PricingCard'>
         <header>
@@ -15,6 +19,7 @@ const PricingCard = ({title, price, storage, users}) => {
             <div className='card-storage'>{storage}</div>
             <div className='card-users-allowed'>{users} users in total</div>
         </div>
+        {/* text popup when pressing button */}
         <button className='card-btn'>READ MORE</button>
     </div>
   );
