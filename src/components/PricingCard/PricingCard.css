@@ -50,7 +50,7 @@
 .PricingCard .card-btn:is(:focus-visible, :hover) {
     color: hsl(237, 63%, 64%);
     background: linear-gradient(white, white) padding-box,
-      linear-gradient(to right, var(--primary-linear-gradient)) border-box;
+    linear-gradient(to right, var(--primary-linear-gradient)) border-box;
     border-radius: 0.5em;
     border: 2px solid transparent;
 }
