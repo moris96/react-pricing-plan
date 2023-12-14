@@ -1,6 +1,6 @@
 # Pricing Plan app made with React.js 
 
-## Link to app: 
+## Link to app: https://react-pricing-plan.netlify.app/
 
 ### Technologies used: 
 * React, JavaScript, CSS 
